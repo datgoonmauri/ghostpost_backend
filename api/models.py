@@ -1,7 +1,7 @@
-from django.db import models
-import datetime
-import random
 import string
+import random
+from django.db import models
+from django.db.models.functions import datetime
 
 
 class PostItem(models.Model):
