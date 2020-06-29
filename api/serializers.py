@@ -1,10 +1,10 @@
 from rest_framework.serializers import HyperlinkedModelSerializer
 
-from .models import PostItem
+from .models import Post
 
 
-class PostItemSerializer(HyperlinkedModelSerializer):
+class PostSerializer(HyperlinkedModelSerializer):
 
     class Meta:
-        model = PostItem
+        model = Post
         fields = ('__all__')
